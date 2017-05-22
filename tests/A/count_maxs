@@ -1,0 +1,22 @@
+program Anf_Igor_5_7_d;
+var
+  x,max,count: int;
+  
+begin
+  read (x);
+  max:=x;
+  count:=1;
+  while x!=0 do
+    begin
+      if x=max then
+        count:=count+1
+      else
+        if x>max then
+          begin
+            max:=x;
+            count:=1
+          end;
+      read (x)
+    end;
+  write (count)
+end

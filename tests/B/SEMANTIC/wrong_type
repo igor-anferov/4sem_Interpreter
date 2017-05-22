@@ -1,0 +1,10 @@
+program wrong_type;
+
+var
+	i, j: real;
+
+begin
+	i := 4.5;
+	j := 1.7;
+	write( i % j );
+end

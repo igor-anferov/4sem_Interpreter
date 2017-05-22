@@ -1,0 +1,10 @@
+program unexpected_symbol;
+
+var
+	i : int;
+
+begin
+	
+	write(!true);
+
+end

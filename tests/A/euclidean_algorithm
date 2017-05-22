@@ -1,0 +1,24 @@
+program Euclidean_algorithm;
+
+var
+max,min,tmp: int;
+
+begin
+            read(max);
+            read(min);
+
+            if max<min then
+            begin
+                tmp:=max;
+                max:=min;
+                min:=tmp;
+            end;
+            while max%min>0 do
+            begin
+                max:=max%min;
+                tmp:=max;
+                max:=min;
+                min:=tmp;
+            end;
+            write(min);
+end

@@ -1,0 +1,45 @@
+program Anf_Igor_8_51;
+
+var
+  s, max, min, maxN, minN, i, n: int,
+  a[10]: int;
+  
+begin
+  n:=10;
+  s:=0;
+  read(a[0]);
+  max:=a[0];
+  min:=a[0];
+  maxN:=0;
+  minN:=0;
+  i:=1;
+  while i<n do
+    begin
+      read(a[i]);
+      if a[i]<min then
+        begin
+          min:=a[i];
+          minN:=i
+        end
+      else
+        if a[i]>max then
+          begin
+            max:=a[i];
+            maxN:=i
+          end;
+      i:=i+1;
+    end;
+
+  i:=0;
+  while i<n do
+    begin
+      s:=s+a[i];
+      i:=i+1;
+    end;
+
+write (a[minN]);
+write (minN+1);
+write (a[maxN]);
+write (maxN+1);
+write (s)
+end

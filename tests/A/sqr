@@ -1,0 +1,8 @@
+program sqr;
+var i: int;
+
+begin
+	i:=9;
+	i:=i*i;
+	write(i);
+end

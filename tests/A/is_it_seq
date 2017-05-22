@@ -1,0 +1,23 @@
+program SeqCheck;
+var 
+  a, a1, a2, n,s,k: int,
+  p: bool;
+begin
+  read(n);
+  read(a1);
+  read(a2);
+  s:=a2 - a1;
+  k := 2;
+  p := true;
+  while (p and (k < n)) do
+      begin
+        read(a);
+        k := k + 1;
+        if a-(k-1)*s != a1 then
+          p:=false
+      end;
+  write(p);
+  a:= a+1;
+  a:= 1;
+  a:= 2;
+end

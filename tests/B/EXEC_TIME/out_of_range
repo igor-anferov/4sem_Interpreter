@@ -1,0 +1,8 @@
+program out_of_range;
+
+var
+	a[5]: int;
+
+begin
+	a[10]:=2;
+end

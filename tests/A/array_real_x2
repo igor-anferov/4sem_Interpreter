@@ -1,0 +1,25 @@
+program array_3;
+
+var   a[5]: real,
+      i, n: int,
+      b[0]: bool;
+
+begin
+n:=5;
+
+i:=0;
+while i<n do
+    begin
+        read (a[i]);
+        a[i]:=a[i]*2;
+        i:=i+1;
+    end;
+
+i:=0;
+while i<n do
+    begin
+        write (a[i]);
+        i:=i+1;
+    end;
+
+end

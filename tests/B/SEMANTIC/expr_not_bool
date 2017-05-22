@@ -1,0 +1,9 @@
+program expr_not_bool;
+
+var
+	i: bool;
+
+begin
+	while 1 do
+		write (0);
+end

@@ -1,0 +1,7 @@
+program twice;
+
+var
+	i,i,i: int;
+
+begin
+end

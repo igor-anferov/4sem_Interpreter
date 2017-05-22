@@ -1,0 +1,7 @@
+program wrong_size_of_array;
+
+var
+	i[0]: int;
+
+begin
+end

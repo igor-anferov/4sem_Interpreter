@@ -1,0 +1,9 @@
+program wrong_type_un_op;
+
+var
+	i: bool;
+
+begin
+	i := true;
+	i := -i;
+end

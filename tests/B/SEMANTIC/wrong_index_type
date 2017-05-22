@@ -1,0 +1,8 @@
+program wrong_index_type;
+
+var
+	i[5]: int;
+
+begin
+	i[3.0] := 3;
+end

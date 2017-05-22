@@ -1,0 +1,9 @@
+program divide_by_zero;
+
+var
+	i: int;
+
+begin
+	i:=0;
+	write(3/i);
+end
